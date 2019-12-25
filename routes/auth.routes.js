@@ -84,6 +84,6 @@ router.post(
     } catch(e) {
       res.status(500).json({ message: 'Что-то пошло не так, попробуйте снова' })
     }
-}) 
+})
 
 module.exports = router
